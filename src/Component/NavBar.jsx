@@ -1,6 +1,8 @@
 import React from 'react'
 import { useState } from "react";
 import "./NavBar.css"
+import { Link } from 'react-router-dom';
+
 
 
 
@@ -64,7 +66,7 @@ const NavBar = () => {
                     >
                         <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
                             <li className="text-slate-900 hover:text-white">
-                                <a href="javascript:void(0)">Sobre mi</a>
+                                <Link to="/SobreMi">Sobre mi</Link>
                             </li>
                             <li className="text-slate-900 hover:text-white">
                                 <a href="javascript:void(0)">Contacto</a>
