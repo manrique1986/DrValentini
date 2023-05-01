@@ -25,17 +25,7 @@ const PatologiasYcirugias = () => {
             de cadera. El principal indicador de esta patología es el dolor
           </p>
         </div>
-        <div className="px-6 pt-4 pb-2">
-          <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-            #photography
-          </span>
-          <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-            #travel
-          </span>
-          <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-            #winter
-          </span>
-        </div>
+     
       </div>
       <div className="max-w-sm rounded m-8 overflow-hidden shadow-2xl" data-aos="fade-left">
         <img
@@ -53,17 +43,7 @@ const PatologiasYcirugias = () => {
             movilidad similar a la de la cadera humana.
           </p>
         </div>
-        <div className="px-6 pt-4 pb-2">
-          <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-            #photography
-          </span>
-          <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-            #travel
-          </span>
-          <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-            #winter
-          </span>
-        </div>
+    
       </div>
       <div className="max-w-sm rounded m-8 overflow-hidden shadow-2xl" data-aos="fade-right"
      data-aos-offset="300"
@@ -83,17 +63,6 @@ const PatologiasYcirugias = () => {
             cadera en personas jóvenes con hueso normal son resultado impactos
             de alta energia como son accidentes de tránsito.
           </p>
-        </div>
-        <div className="px-6 pt-4 pb-2">
-          <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-            #photography
-          </span>
-          <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-            #travel
-          </span>
-          <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-            #winter
-          </span>
         </div>
       </div>
     </div>
