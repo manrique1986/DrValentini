@@ -72,7 +72,7 @@ const NavBar = () => {
                                 <p>Contacto</p>
                             </li>
                             <li className="text-slate-900 hover:text-white">
-                                <p>Patologia y cirugias</p>
+                                <Link to="/PatologiasYcirugias">Patologia y cirugias</Link>
                             </li>
                         </ul>
                     </div>
