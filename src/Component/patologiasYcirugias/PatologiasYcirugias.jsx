@@ -6,7 +6,7 @@ AOS.init();
 
 const PatologiasYcirugias = () => {
   return (
-    <div className="grid grid-cols-1 p-20 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+    <div className="grid grid-cols-1 p-4 sm:grid-cols-1 sm: md:grid-cols-2 lg:grid-cols-3">
       <div  className="max-w-sm rounded m-8  overflow-hidden shadow-2xl" data-aos="fade-right"
      data-aos-offset="300"
      data-aos-easing="ease-in-sine">
@@ -37,9 +37,7 @@ const PatologiasYcirugias = () => {
           </span>
         </div>
       </div>
-      <div className="max-w-sm rounded m-8 overflow-hidden shadow-2xl" data-aos="fade-right"
-     data-aos-offset="300"
-     data-aos-easing="ease-in-sine">
+      <div className="max-w-sm rounded m-8 overflow-hidden shadow-2xl" data-aos="fade-left">
         <img
           className="w-full rounded-lg"
           src="https://res.cloudinary.com/dytpump6i/image/upload/v1681675749/cadera_nsfdtk.jpg"
