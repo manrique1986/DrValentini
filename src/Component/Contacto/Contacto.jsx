@@ -18,7 +18,7 @@ const Contacto = () => {
       )
       .then(
         (result) => {
-          console.log(result.text);
+          result.push("/Email");
         },
         (error) => {
           console.log(error.text);
