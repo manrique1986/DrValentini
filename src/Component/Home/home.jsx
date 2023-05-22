@@ -8,7 +8,7 @@ const home = () => {
 
     <div className="grid grid-cols-1 sm:grid-cols-2   md:grid-cols-1 lg:grid-cols-2 bg-[#ebe6ea] ">
       <div className="">
-        <p className=" pt-44 p-20 text-3xl italic ">Traumatologo especialista en cadera</p>
+        <p className=" lg:pt-44  p-20 text-3xl italic ">Traumatologo especialista en cadera</p>
       </div>
 
       <div className="">
