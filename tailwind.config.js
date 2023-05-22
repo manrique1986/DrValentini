@@ -17,7 +17,12 @@ module.exports = {
         // => @media (min-width: 1280px) { ... }
       },
     },
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'hero-pattern': "url('https://res.cloudinary.com/dytpump6i/image/upload/v1683033578/fondo_valentini_p68cfx.jpg')",
+        'footer-texture': "url('https://res.cloudinary.com/dytpump6i/image/upload/v1683033578/fondo_valentini_p68cfx.jpg')",
+      }
+    },
   },
   plugins: [],
 }

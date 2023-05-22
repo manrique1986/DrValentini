@@ -1,21 +1,24 @@
 import React from "react";
-import AOS from 'aos';
-import 'aos/dist/aos.css'; // You can also use <link> for styles
+import AOS from "aos";
+import "aos/dist/aos.css"; // You can also use <link> for styles
 // ..
 AOS.init();
 
 const PatologiasYcirugias = () => {
   return (
-    <div className="grid grid-cols-1 p-4 sm:grid-cols-1 sm: md:grid-cols-2 lg:grid-cols-3">
-      <div  className="max-w-sm rounded m-8  overflow-hidden shadow-2xl" data-aos="fade-right"
-     data-aos-offset="300"
-     data-aos-easing="ease-in-sine">
+    <div className="grid grid-cols-1 p-4 sm:grid-cols-1 sm: md:grid-cols-2 lg:grid-cols-3 bg-[#ebe6ea]">
+      <div
+        className="max-w-sm rounded m-8  overflow-hidden shadow-2xl "
+        data-aos="fade-right"
+        data-aos-offset="300"
+        data-aos-easing="ease-in-sine"
+      >
         <img
           className="w-full rounded-lg"
           src="https://res.cloudinary.com/dytpump6i/image/upload/v1682964053/artrosis-cadera_zfi3wv.jpg"
           alt="Sunset in the mountains"
         />
-        <div className="px-6 py-4">
+        <div className="px-6 py-4 bg-[#c8ad8d]">
           <div className="font-bold text-xl mb-2">Artrosis de cadera</div>
           <p className="text-gray-700 text-base">
             La Artrosis de cadera es una enfermedad degenerativa del cartílago
@@ -25,15 +28,17 @@ const PatologiasYcirugias = () => {
             de cadera. El principal indicador de esta patología es el dolor
           </p>
         </div>
-     
       </div>
-      <div className="max-w-sm rounded m-8 overflow-hidden shadow-2xl" data-aos="fade-left">
+      <div
+        className="max-w-sm rounded m-8 overflow-hidden shadow-2xl"
+        data-aos="fade-left"
+      >
         <img
           className="w-full rounded-lg"
           src="https://res.cloudinary.com/dytpump6i/image/upload/v1681675749/cadera_nsfdtk.jpg"
           alt="Sunset in the mountains"
         />
-        <div className="px-6 py-4">
+        <div className="px-6 py-4 bg-[#c8ad8d]">
           <div className="font-bold text-xl mb-2">Protesis de cadera</div>
           <p className="text-gray-700 text-base">
             La colocacion de prótesis de cadera es una técnica de cirugía mayor
@@ -43,17 +48,40 @@ const PatologiasYcirugias = () => {
             movilidad similar a la de la cadera humana.
           </p>
         </div>
-    
       </div>
-      <div className="max-w-sm rounded m-8 overflow-hidden shadow-2xl" data-aos="fade-right"
-     data-aos-offset="300"
-     data-aos-easing="ease-in-sine">
+      <div
+        className="max-w-sm rounded m-8 overflow-hidden shadow-2xl"
+        data-aos="fade-left"
+      >
+        <img
+          className="w-full rounded-lg"
+          src="https://res.cloudinary.com/dytpump6i/image/upload/v1682964097/protesis_hzpq0u.jpg"
+          alt="Sunset in the mountains"
+        />
+        <div className="px-6 py-4 bg-[#c8ad8d]">
+          <div className="font-bold text-xl mb-2">
+            Recambio protesicos de cadera
+          </div>
+          <p className="text-gray-700 text-base">
+            Son Técnicas utilizadas por el traumatologo especialista en cadera
+            donde se realiza la extracción de una prótesis de cadera y
+            colocación de una nueva por diferentes motivos como la infección, el
+            aflojamiento o el desgaste de la protesis.
+          </p>
+        </div>
+      </div>
+      <div
+        className="max-w-sm rounded m-8 overflow-hidden shadow-2xl"
+        data-aos="fade-right"
+        data-aos-offset="300"
+        data-aos-easing="ease-in-sine"
+      >
         <img
           className="w-full rounded-lg"
           src="https://res.cloudinary.com/dytpump6i/image/upload/v1682963983/fractura-cadera_empyzq.jpg"
           alt="Sunset in the mountains"
         />
-        <div className="px-6 py-4">
+        <div className="px-6 py-4 bg-[#c8ad8d]">
           <div className="font-bold text-xl mb-2">Fractura de cadera</div>
           <p className="text-gray-700 text-base">
             La fractura de cadera es la rotura del hueso del fémur. Los ancianos
