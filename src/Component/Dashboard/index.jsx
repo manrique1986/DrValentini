@@ -4,20 +4,28 @@ import React from "react";
 import { CgProfile } from "react-icons/cg";
 
 import { AiOutlineHome } from "react-icons/ai";
-import { AiOutlineWallet, AiOutlineSend, AiOutlineClose } from "react-icons/ai";
-import { FiHelpCircle, FiLogOut } from "react-icons/fi";
-import { BsQrCode } from "react-icons/bs";
-import { MdOutlineReceipt, MdOutlineQrCodeScanner } from "react-icons/md";
-import { GiReceiveMoney } from "react-icons/gi";
-import { Link } from "react-router-dom";
+import { AiOutlineSend, AiOutlineClose } from "react-icons/ai";
 
+import { MdOutlineQrCodeScanner } from "react-icons/md";
+
+import { Link } from "react-router-dom";
 
 const NavBar = ({ open, setOpen }) => {
   const menus = [
-    { name: "Inicio", link: "/home", icon: AiOutlineHome,  },
-    { name: "Sobre mi", link: "/SobreMi", icon: CgProfile, margin: true  },
-    { name: "Patologia y cirugias", link: "/PatologiasYcirugias", icon: AiOutlineSend , margin: true },
-    { name: "Contacto", link: "/contacto", icon: MdOutlineQrCodeScanner, margin: true },
+    { name: "Inicio", link: "/home", icon: AiOutlineHome },
+    { name: "Sobre mi", link: "/SobreMi", icon: CgProfile, margin: true },
+    {
+      name: "Patologia y cirugias",
+      link: "/PatologiasYcirugias",
+      icon: AiOutlineSend,
+      margin: true,
+    },
+    {
+      name: "Contacto",
+      link: "/contacto",
+      icon: MdOutlineQrCodeScanner,
+      margin: true,
+    },
   ];
 
   return (
@@ -95,7 +103,6 @@ const NavBar = ({ open, setOpen }) => {
             </Link>
           ))}
         </div>
-      
       </div>
     </section>
   );
