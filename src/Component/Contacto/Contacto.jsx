@@ -2,8 +2,13 @@
 import "./Contacto.css";
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
+import {  useNavigate } from "react-router-dom";
+import Layout from "../layaout";
+
 
 const Contacto = () => {
+
+  const navigate = useNavigate();
   const form = useRef();
 
   const sendEmail = (e) => {
@@ -18,7 +23,7 @@ const Contacto = () => {
       )
       .then(
         (result) => {
-          result.push("/home");
+          navigate("/home");
           
         },
         (error) => {
@@ -27,6 +32,8 @@ const Contacto = () => {
       );
   };
   return (
+
+    <Layout>
     <form ref={form} onSubmit={sendEmail}>
       <div className=" p-10 fondoContact w-screen h-screen flex justify-center items-center  text-center">
         <div className="w-5/6 h-5/6">
@@ -78,6 +85,7 @@ const Contacto = () => {
         </div>
       </div>
     </form>
+    </Layout>
   );
 };
 

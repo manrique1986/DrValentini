@@ -1,11 +1,13 @@
 import React from "react";
 import AOS from "aos";
 import "aos/dist/aos.css"; // You can also use <link> for styles
+import Layout from "../layaout";
 // ..
 AOS.init();
 
 const PatologiasYcirugias = () => {
   return (
+    <Layout>
     <div className="grid grid-cols-1 p-4 sm:grid-cols-1 sm: md:grid-cols-2 lg:grid-cols-3 bg-[#ebe6ea]">
       <div
         className="max-w-sm rounded m-8  overflow-hidden shadow-2xl "
@@ -94,6 +96,7 @@ const PatologiasYcirugias = () => {
         </div>
       </div>
     </div>
+    </Layout>
   );
 };
 
