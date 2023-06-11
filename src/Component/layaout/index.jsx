@@ -1,7 +1,5 @@
 import { useEffect, useState } from "react";
 
-
-
 import { useLocation } from "react-router-dom";
 import NavBar from "../Dashboard";
 import Navbar from "../NavBar";
@@ -11,7 +9,7 @@ const Layout = ({ children }) => {
 
   const location = useLocation();
 
-  useEffect(() => {
+  useEffect((a) => {
     switch (location.pathname) {
       case "/home":
         setTitle("Dr Valentini");
@@ -22,13 +20,9 @@ const Layout = ({ children }) => {
       case "/PatologiasYcirugias":
         setTitle("Patologias y cirugias");
         break;
-        case "/contacto":
-            setTitle("Contacto");
-            break;
-         
-     
-  
-     
+      case "/contacto":
+        setTitle("Contacto");
+        break;
     }
   }, [location.pathname]);
 
