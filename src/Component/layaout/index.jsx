@@ -9,8 +9,12 @@ const Layout = ({ children }) => {
 
   const location = useLocation();
 
-  useEffect((a) => {
+  useEffect(() => {
     switch (location.pathname) {
+        case "a":
+            setTitle()
+       
+        break;
       case "/home":
         setTitle("Dr Valentini");
         break;
