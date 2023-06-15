@@ -35,7 +35,7 @@ const Contacto = () => {
 
     <Layout>
     <form ref={form} onSubmit={sendEmail}>
-      <div className=" p-10 fondoContact w-screen h-screen flex justify-center items-center  text-center">
+      <div className="  fondoContact w-screen pb-4 flex justify-center items-center  text-center">
         <div className="w-5/6 h-5/6">
           <h1 className="text-3xl text-white text-center mt-4">Contacto</h1>
           <div className=" mt-8 m-auto w-full md:flex">
