@@ -7,7 +7,7 @@ import {  useState } from "react";
 import PropagateLoader from "react-spinners/PropagateLoader";
 
 const Contacto = () => {
-  const [loading, setLoading] = useState(true);
+  const [loading, setLoading] = useState(false);
 
   const navigate = useNavigate();
   const form = useRef();
