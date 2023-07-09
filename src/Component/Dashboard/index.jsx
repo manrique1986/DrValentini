@@ -4,9 +4,10 @@ import React from "react";
 import { CgProfile } from "react-icons/cg";
 
 import { AiOutlineHome } from "react-icons/ai";
-import { AiOutlineSend, AiOutlineClose } from "react-icons/ai";
+import { AiOutlineClose } from "react-icons/ai";
 
-import { MdOutlineQrCodeScanner } from "react-icons/md";
+import { MdOutlineContactMail } from "react-icons/md";
+import {GiScalpel} from "react-icons/gi"
 
 import { Link } from "react-router-dom";
 
@@ -17,13 +18,13 @@ const NavBar = ({ open, setOpen }) => {
     {
       name: "Patologia y cirugias",
       link: "/PatologiasYcirugias",
-      icon: AiOutlineSend,
+      icon: GiScalpel,
       margin: true,
     },
     {
       name: "Contacto",
       link: "/contacto",
-      icon: MdOutlineQrCodeScanner,
+      icon: MdOutlineContactMail,
       margin: true,
     },
   ];

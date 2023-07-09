@@ -4,8 +4,8 @@ import Layout from "../layaout";
 const SobreMi = () => {
   return (
     <>
-    <Layout>
-      <div className=" grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-2 bg-[url('https://res.cloudinary.com/dytpump6i/image/upload/v1683033578/fondo_valentini_p68cfx.jpg')] bg-cover no-repeat bg-center  ">
+      <Layout>
+        {/* <div className=" grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-2 bg-[url('https://res.cloudinary.com/dytpump6i/image/upload/v1683033578/fondo_valentini_p68cfx.jpg')] bg-cover no-repeat bg-center  ">
         <div className=" bg-[#ebe6ea]/40">
           <div className="">
             <p className="font-mono indent-8 p-12 text-lg font-bold">
@@ -36,8 +36,37 @@ const SobreMi = () => {
             </p>
           </div>
         </div>
-      </div>
-    </Layout>
+      </div> */}
+        <div className="  bg-[#ebe6ea] p-2">
+         <h3 className="ml-6 text-[#6f7357]">Sobre mi</h3>
+         <p className="p-4 text-sm font-sans">   Realice la carrera de Médicina en la Universidad del Salvador,
+              Buenos Aires. Título de Médico. Hice la especialización en
+              Ortopedia y Traumatología en el Servicio de Ortopedia y
+              Traumatología del instituto CEMIC de Capital Federal Buenos Aires
+              Argentina desde el año 1997 al 2001 y el Fellowship o
+              especialización en Patología de la Cadera en el Servicio de
+              Ortopedia y Traumatología del Hospital Italiano de Capital Federal
+              Buenos Aires Argentina desde el año 2002 a 2004.  Fui Médico de
+              planta del Sanatorio Nosti. Rafaela, provincia de Santa Fe, abril
+              2006 a marzo 2009.Médico Traumatologo especialista en cadera del
+              Equipo de Cadera del Servicio de Ortopedia y Traumatología, Cemic.
+              Junio 2002 – junio 2005 y julio 2008 a la fecha. Traumatologo
+              Integrante del equipo de transplante / banco de tejidos del
+              Sistema Musculoesquelético y Osteoarticular de Cemic. también es
+              Miembro de la “American Accademy of Orthopaedic Surgeons”, desde
+              abril de 2016 a la fecha.Miembro del Comité de Residencias de la
+              Asociación Argentina de Ortopedia y Traumatología, desde Marzo de
+              2017 a la fecha.El Dr. Roberto Valentini es Traumatologo
+              Especialista en Cadera realiza cirugias en la cadera como son la
+              Cirugia Mini Invasiva de Cadera y revisiones de Artroplastias de
+              Cadera en Capital Federal Argentina tambien es Es Medico
+              traumatologo prestador de OSDETop Doctors Argentina Traumatologo
+              Especialista Cadera en el año 2018</p>
+              <div className="">
+                <img className=" rounded-lg p-6 " src="https://res.cloudinary.com/dytpump6i/image/upload/v1683033578/fondo_valentini_p68cfx.jpg" alt="" />
+              </div>
+        </div>
+      </Layout>
     </>
   );
 };

@@ -17,7 +17,7 @@ const Footer = () => {
             <div className="mb-5">
               <h4 className="text-2xl pb-4">Consultorio</h4>
               <p className="text-gray-500">
-                <FaLocationArrow /> Paraguay 1465 Buenos aires <br></br>
+                <FaLocationArrow /> Av callao 875 Buenos aires <br></br>
                 <strong>Telefono:</strong> 0115-2520295 <br />
                 <strong>Email:</strong> rr_valentini@yahoo.com <br />
               </p>

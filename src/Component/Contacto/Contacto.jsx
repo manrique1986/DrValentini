@@ -40,8 +40,8 @@ const Contacto = () => {
     <Layout>
       <form ref={form} onSubmit={sendEmail}>
         {loading ? (
-          <div className="h-screen pt-32">
-            <p className="text-center text-2xl">Correo enviado con exito...</p>
+          <div className="h-screen pt-32 bg-[#273a2d]">
+            <p className="  text-neutral-50 text-center text-2xl">Correo enviado con exito...</p>
           <PropagateLoader className="text-center mb-6" color="#c8ad8d"  />
           </div>
         ) : 

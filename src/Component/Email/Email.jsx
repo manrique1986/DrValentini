@@ -2,7 +2,7 @@ import React from 'react'
 
 const Email = () => {
   return (
-    <div>Email enviado correctamente</div>
+    <div className='h-screen bg-[#273a2d] text-neutral-50 text-lg'>Email enviado correctamente</div>
   )
 }
 
