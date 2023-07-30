@@ -38,8 +38,8 @@ const SobreMi = () => {
         </div>
       </div> */}
         <div className="  bg-[#ebe6ea] p-2">
-         <h3 className="ml-6 text-[#6f7357]">Sobre mi</h3>
-         <p className="p-4 text-sm font-sans">   Realice la carrera de Médicina en la Universidad del Salvador,
+         <h3 className=" lg:text-2xl ml-6 text-[#6f7357]">Sobre mi</h3>
+         <p className="lg:text-xl lg:px-8 p-4 text-sm font-sans">   Realice la carrera de Médicina en la Universidad del Salvador,
               Buenos Aires. Título de Médico. Hice la especialización en
               Ortopedia y Traumatología en el Servicio de Ortopedia y
               Traumatología del instituto CEMIC de Capital Federal Buenos Aires
@@ -62,7 +62,7 @@ const SobreMi = () => {
               Cadera en Capital Federal Argentina tambien es Es Medico
               traumatologo prestador de OSDETop Doctors Argentina Traumatologo
               Especialista Cadera en el año 2018</p>
-              <div className="">
+              <div className="lg:ml-6">
                 <img className=" rounded-lg p-6 " src="https://res.cloudinary.com/dytpump6i/image/upload/v1683033578/fondo_valentini_p68cfx.jpg" alt="" />
               </div>
         </div>

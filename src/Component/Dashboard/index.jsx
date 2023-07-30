@@ -30,7 +30,7 @@ const NavBar = ({ open, setOpen }) => {
   ];
 
   return (
-    <section className="relative flex border- ">
+    <section className="relative flex  ">
       <div
         onClick={() => setOpen(false)}
         className={`md:hidden fixed inset-0 max-h-screen  bg-black/50 ${
@@ -39,7 +39,7 @@ const NavBar = ({ open, setOpen }) => {
       ></div>
       <div
         className={`absolute min-h-screen text-[#ebe6ea]  ${
-          open ? "w-[260px] bg-[#273a2d]   " : " invisible"
+          open ? "w-[260px] bg-[#273a2d] text-right  " : " invisible"
         } duration-500 text-black-100`}
       >
         <div className="w-[260px] h-[64px] bg-[#6f7357] flex justify-between items-center pr-6">
@@ -70,7 +70,7 @@ const NavBar = ({ open, setOpen }) => {
           />
         </div>
 
-        <div className="relative flex flex-col gap-1 pl-2 mt-4">
+        <div className="relative flex flex-col gap-1 pl-2 mt-4  ">
           {menus?.map((menu, i) => (
             <Link
               to={menu?.link}
@@ -97,7 +97,7 @@ const NavBar = ({ open, setOpen }) => {
               <h2
                 className={`${
                   open && "hidden"
-                } absolute left-48 bg-[#10224D] font-semibold whitespace-pre text-white   rounded-md drop-shadow-lg px-0 py-0 w-0 overflow-hidden group-hover:px-2 group-hover:py-1 group-hover:left-14 group-hover:duration-300 group-hover:w-fit  `}
+                }  absolute left-48 bg-[#10224D] font-semibold whitespace-pre text-white   rounded-md drop-shadow-lg px-0 py-0 w-0 overflow-hidden group-hover:px-2 group-hover:py-1 group-hover:left-14 group-hover:duration-300 group-hover:w-fit  `}
               >
                 {menu?.name}
               </h2>
